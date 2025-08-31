@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9eae1ff;
+  color: #7d4f50ff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #cc8b86ff;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 2px solid #d1be9cff;
+  border-radius: 5px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 15px;
+  background-color: #aa998fff;
+  color: #f9eae1ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7d4f50ff;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  input[type="number"],
+  button {
+    font-size: 14px;
+    padding: 4px 8px;
+    width: 80px;
+  }
+  p#resultado {
+    font-size: 16px;
+  }
+}
